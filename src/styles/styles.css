@@ -1,0 +1,70 @@
+/* Reset de estilos para el body y el contenedor principal */
+body, #root {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Estilo del contenedor principal */
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Fondo gris claro */
+  }
+  
+  /* Estilos generales para los componentes */
+  div > div {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* Fondo blanco */
+  }
+  
+  /* Estilos específicos para cada componente */
+  /* CounterApp */
+  p {
+    font-size: 18px;
+    color: #333; /* Texto negro */
+  }
+  
+  button {
+    margin: 5px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* TitleChanger */
+  input {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #009688; /* Texto verde oscuro */
+  }
+  
+  /* ColorToggler */
+  div[style] {
+    transition: background-color 0.5s;
+  }
+  
+  /* CheckboxToggle */
+  /* No se requieren estilos específicos para este componente */
+  
+  /* PasswordInput */
+  /* No se requieren estilos específicos para este componente */
+  
+  /* TextChanger */
+  /* No se requieren estilos específicos para este componente */
+  
+  /* ThemeChanger */
+  /* No se requieren estilos específicos para este componente */
+  
